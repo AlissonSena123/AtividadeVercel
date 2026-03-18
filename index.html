@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Ferramentas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cadastro de Ferramentas</h1>
+
+  <form id="formFerramenta">
+    <input type="text" name="nome" placeholder="Nome da ferramenta" required>
+    <input type="text" name="tipo" placeholder="Tipo" required>
+    <input type="number" name="quantidade" placeholder="Quantidade" required>
+    <textarea name="descricao" placeholder="Descrição"></textarea>
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <ul id="listaFerramentas"></ul>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
